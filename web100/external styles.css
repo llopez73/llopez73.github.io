@@ -1,0 +1,44 @@
+
+body {
+  background-color: #f6f8fa; /* Light gray background */
+  color: #24292e;            /* GitHub's dark gray text color */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, 
+               "Apple Color Emoji", "Segoe UI Emoji"; /* GitHub-style font stack */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1f2328; /* Slightly darker for headings */
+  font-family: inherit;
+}
+
+a {
+  color: #0969da; /* GitHub link blue */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code {
+  background-color: #f6f8fa;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  padding: 2px 4px;
+  border-radius: 6px;
+  color: #1f2328;
+}
+
+/* Example classes */
+.text-primary {
+  color: #0969da;
+}
+
+.bg-light {
+  background-color: #f6f8fa;
+}
+
+.bg-dark {
+  background-color: #24292e;
+  color: white;
+}
+
